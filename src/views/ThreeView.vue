@@ -27,7 +27,7 @@
   
         // 立方体
         const geometry = new THREE.BoxGeometry();
-        const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+        const material = new THREE.MeshBasicMaterial({ color: 'white' });
         this.cube = new THREE.Mesh(geometry, material);
         this.scene.add(this.cube);
   
